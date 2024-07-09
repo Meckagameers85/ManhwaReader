@@ -1,0 +1,29 @@
+/* style.css */
+html {
+    background-image: url("background.png");
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-container {
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.home {
+    font-size: 50px;
+}
